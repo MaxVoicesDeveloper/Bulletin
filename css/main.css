@@ -1,0 +1,332 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockhead{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  margin: 25px 0px 25px 0px;
+  position: absolute;
+}
+
+.header{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+}
+
+.logo{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.logo span{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.menu{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li{
+  list-style-type: none;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.adress{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  background: url("../img/Красная площадь.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(222, 222, 222, 0.5);
+  border-radius: 24px;
+}
+
+.carousel span{
+  font-size: 80px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.slider{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1500px;
+  height: 250px;
+  padding: 50px;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.slider-line{
+  width: 60%;
+  display: flex;
+  color: white;
+  position: relative;
+  left: 0;
+  overflow: hidden;
+}
+
+.text{
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text p{
+width: 50%;
+}
+
+.slider-line p:nth-child(1){
+  font-size: 27px;
+}
+
+.slider button{
+  background: none;
+  border: none;
+}
+
+.next{
+  transform: rotate(180deg);
+}
+
+.mainsob{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainsob > span{
+  font-size: 90px;
+  margin-bottom: 130px;
+  font-weight: bolder;
+}
+
+.blocks{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block{
+  width: 150px;
+  height: 300px;
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: url("../img/block.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.block span{
+  font-size: 18px;
+}
+
+.block hr{
+  height: 3px;
+  width: 100%;
+  background: black;
+  border: none;
+  border-radius: 30px;
+}
+
+.block p{
+  font-size: 11px;
+  text-align: center;
+}
+
+.block button{
+  padding: 10px 35px 10px 35px;
+  border: none;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  transition: 500ms all;
+}
+
+.block button:hover{
+  background: rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+.muz{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.muzblocks{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.muz > span{
+  font-size: 90px;
+  margin-bottom: 130px;
+  font-weight: bolder;
+}
+
+
+.muzblock{
+  width: 350px;
+  height: 400px;
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: url("../img/muzblock.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.muzblock span{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.muzblock hr{
+  height: 3px;
+  width: 100%;
+  background: black;
+  border: none;
+  border-radius: 30px;
+}
+
+.muzblock p{
+  font-size: 17px;
+  text-align: center;
+}
+
+.muzblock button{
+  padding: 10px 35px 10px 35px;
+  border: none;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  transition: 500ms all;
+}
+
+.muzblock button:hover{
+  background: rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+}
+
+.shop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bilet{
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  padding: 25px;
+  border-radius: 24px;
+}
+
+.bilet span{
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+
+.bilet input{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bilet hr{
+  height: 2px;
+  width: 80%;
+  background: white;
+  border: none;
+  border-radius: 30px;
+}
+
+.bilet button{
+  padding: 10px 35px 10px 35px;
+  border: none;
+  background: blue;
+  border-radius: 10px;
+  color: white;
+  transition: 500ms all;
+}
